@@ -1,4 +1,5 @@
 file=open("example1.txt","r")
-cont=file.read()
-print(cont)
+for line in file:
+    print("Line:",line.strip())
+
 file.close()
