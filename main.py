@@ -1,3 +1,3 @@
-file=open("example1.txt","w")
-file.write("Unfortunately Choosen Engineering!!!")
+file=open("example1.txt","a")
+file.write("\nDear Dairy")
 file.close()
