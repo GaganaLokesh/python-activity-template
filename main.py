@@ -1,5 +1,4 @@
 file=open("example1.txt","r")
-for line in file:
-    print("Line:",line.strip())
-
+cont=file.read(10)
+print("First 10 characters are:",cont)
 file.close()
