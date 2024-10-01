@@ -1,3 +1,4 @@
-file=open("example1.txt","a")
-print("file opened in a append mode")
+file=open("example1.txt","r")
+cont=file.read()
+print(cont)
 file.close()
